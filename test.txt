@@ -9963,4 +9963,4 @@ Publikacja zrealizowana w ramach projektu Wolne Lektury (http://wolnelektury.pl)
 Opracowanie redakcyjne i przypisy: Maria Bailey, Anna Dyja, Marta Niedziałkowska, Agnieszka Paul, Magdalena Paul, Aleksandra Sekuła, Weronika Trzeciak.
 ISBN-978-83-288-2495-9
 
-Lines: 9143, Words: 69095
+Lines: 9964, Words: 69095

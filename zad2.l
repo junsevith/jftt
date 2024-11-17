@@ -8,23 +8,7 @@ int word_count = 0;  // Liczba słów
 
 %%
 
-[\n]+ {
-    line_count++;
-    printf("\n");
-}
-
-^[[:blank:]]+ {}
-
-[[:blank:]]+$ {}
-
-[[:blank:]]+ { 
-    printf(" ");
-}
-
-[[:^space:]]+ { 
-    word_count++;
-    printf("%s", yytext);
-}
+--.*$ {}
 
 %%
 
@@ -43,8 +27,6 @@ int main(int argc, char **argv) {
     }
 
     yylex();
-
-    printf("\nLines: %d, Words: %d\n", line_count, word_count);
 
     return 0;
 
